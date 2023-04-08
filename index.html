@@ -70,18 +70,28 @@
                     <span class="mensagem-erro"></span>
                 </fieldset>
                 <fieldset class="formulario__campo">
-                    <label class="campo__etiqueta" for="rg">RG</label>
-                    <input name="rg" id="rg" class="campo__escrita campo__escrita--menor" type="text" required/>
+                    <label class="campo__etiqueta" for="rg">Senha</label>
+                    <input name="Senha" id="senha" class="campo__escrita campo__escrita--menor" type="password" required/>
                     <span class="mensagem-erro"></span>
                 </fieldset>
                 <fieldset class="formulario__campo">
                     <label class="campo__etiqueta" for="cpf">CPF (apenas números)</label>
-                    <input name="cpf" id="cpf" class="campo__escrita campo__escrita--menor" required type="text" minlength="11" maxlength="14" pattern="\d.{3}\.?\d.{3}\.?\d.{3}-?\d{2}" />
+                    <input name="cpf" id="cpf" class="campo__escrita campo__escrita--menor" required type="text" minlength="11" maxlength="14"/>
                     <span class="mensagem-erro"></span>
                 </fieldset>
                 <fieldset class="formulario__campo">
-                    <label class="campo__etiqueta" for="aniversario">Data de nascimento</label>
-                    <input name="aniversario" id="aniversario" class="campo__escrita campo__escrita--menor" type="date" required />
+                    <label class="campo__etiqueta" for="telefone">Telefone</label>
+                    <input name="telefone" id="telefone" class="campo__escrita campo__escrita--menor" type="tel" required />
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                <fieldset class="formulario__campo">
+                    <label class="campo__etiqueta" for="logradouro">logradouro</label>
+                    <input name="logradouro" id="logradouro" class="campo__escrita campo__escrita--menor" type="text" required/>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                <fieldset class="formulario__campo">
+                    <label class="campo__etiqueta" for="número">Número do logradouro</label>
+                    <input name="numero__logradouro" id="numero__logradouro" class="campo__escrita campo__escrita--menor" type="text" required/>
                     <span class="mensagem-erro"></span>
                 </fieldset>
                 <fieldset class="formulario__termos">
@@ -94,7 +104,7 @@
                 </fieldset>
 
                 <div>
-                    <input value="Enviar" class="formulario__botao" id="enviar" data-botao-enviar type="submit">
+                    <input value="Avançar" class="formulario__botao" id="enviar" data-botao-enviar type="submit">
                     <span class="mensagem-erro"></span>
                 </div>
             </form>
